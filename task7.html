@@ -1,0 +1,92 @@
+<html>
+    <head>
+        <title>creating a page using form tags</title>
+
+    </head>
+    <body>
+        <fieldset>
+            <legend>Register  for 10k course</legend>
+            <form action="./varm.txt"> 
+                <center>
+                <pre>
+
+                    <label for="image" ><Strong>Upload Image:--</Strong></label><br>
+                    <input type="image" id="image" src="./photo1.jpeg" alt="image" width="100" height="100" />
+
+                    <label for="name"><strong>Name:--</strong></label>
+                    <input type="text" id="name" placeholder="FullName" required/>
+
+                    <label for="email"><strong>Email:--</strong></label>
+                    <input type="text" id="email" placeholder="email" required/>
+
+                    <label for="Education"><strong>Education:--</strong></label>
+                    <select  id="Education" style="width: 170px;" required>
+                        <option value="">choose from below</option>
+                        <option value="Btech">Btech</option>
+                        <option value="BSc">BSc</option>
+                        <option value="Bcom">Bcom</option>
+                        <option value="MCA">MCA</option>
+                        <option value="MBA">MB A</option>
+                    </select>
+                    
+                    <label for="Passout"> Year of Passed out:--</label>
+                    <select  id="Passout" style="width: 170px;" required>
+                        <option value="choose from below">choose from below</option>
+                        <option value="2024">2024</option>
+                        <option value="2023">2023</option>
+                        <option value="2022">2022</option>
+                        <option value="2021">2021</option>
+                        <option value="2020">2020</option>
+
+                    </select>
+                    
+                    <label for="course">Location:--</label>
+                    <select id="couse" style="width: 170px">
+                        <option value=""></option>
+                        <option value="Hyderbad">Hyderbad</option>
+                        <option value="chennai">chennai</option>
+                        <option value="Banglore">Banglore</option>
+                        <option value="Remote">Remote</option>
+
+
+                    </select>
+
+
+                    <label for="Passout">Choose your course:--</label>
+                    <select  id="Passout" style="width: 170px;" required>
+                        <option value="choose from below" >choose form below</option>
+                        <option value="Frontend develper">frontend developer</option>
+                        <option value="Java Fullstack">Java Fullstack</option>
+                        <option value="Python Fullstack">Python Fullstack</option>
+                        <option value="AWS">AWS</option>
+                        
+
+                    </select>
+
+                    <label for="number">Phone Number</label>
+                    <input type="number" id="number"required />
+
+                    <label for="male">male</label>
+                    <input type="radio" id="male" name="gender" value="male">
+                    <label for="female">female</label><br>
+                    <input type="radio" id="female" name="gender" value="female">
+
+                    Do you wanna become as a developer?
+                    <input type="checkbox" required/>
+
+                    <button type="submit">submit</button>
+
+
+                    
+
+
+
+
+
+                        
+                </pre>
+                </center>
+            </form>
+        </fieldset>
+    </body>
+</html>
